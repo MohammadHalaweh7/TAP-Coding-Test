@@ -4,6 +4,7 @@
 
 - [HTML & CSS Question](#HTML&CSS-Question)
 - [Javascript Question](#Javascript-Question)
+- [English assignment](#English-assignment)
 - [Socials](#Socials)
 
 ### HTML & CSS Question
@@ -23,13 +24,15 @@ Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
 
 ![JsQuestion](./assets/Screenshoots/jsQuestionScreenshoot.jpg)
 
+### English Assignment
 
+![EnglishAssignment](./assets/Screenshoots/English%20assessment-Mohammad%20Halaweh.jpeg)
 
 ### Socials
 
 - Mohammad Halaweh
 
-LinkedIn =>  https://www.linkedin.com/in/mohammad-halaweh-851110231/
+LinkedIn => https://www.linkedin.com/in/mohammad-halaweh-851110231/
 
 Youtupe => https://www.youtube.com/channel/UC3gf4o1mZEBIuLFCLPDGRYQ
 
