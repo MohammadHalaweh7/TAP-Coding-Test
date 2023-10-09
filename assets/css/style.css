@@ -110,6 +110,11 @@ header .header-details p a {
     color: var(--secondary-color);
 }
 
+header .header-details .header-buttons {
+    display: flex;
+    row-gap: 10px;
+}
+
 
 
 header .header-details .hire-button {
@@ -150,10 +155,27 @@ header .header-details .projects-button:hover {
     background-color: var(--main-color);
 }
 
-
+header .header-image{
+    position: relative;
+}
 header .header-image img {
+    position: relative;
+    z-index: 999999;
     border-bottom-left-radius: 50%;
-    box-shadow: -15px 2px 0 rgba(107, 96, 87, 0.3);
+
+}
+
+header .header-image::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: -10px;
+    bottom: 0;
+    background-color: rgba(107, 96, 87, 0.3);
+    z-index: 1;
+    border-bottom-left-radius: 50%;
+    transform: rotate(-2deg);
 }
 
 /* End Header */
