@@ -1,0 +1,181 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #008aaa;
+    --secondary-color: #3bbadb;
+    --third-color: #d1884f;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Start nav */
+nav {
+    padding: 2.5rem 0;
+}
+
+nav .list-item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+}
+
+
+nav .list-item .item a {
+    font-size: 19px;
+    color: black;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+nav .list-item .item a:hover {
+    color: var(--third-color);
+}
+
+nav .list-item .item i {
+    margin-right: 9px;
+}
+
+nav .list-item .item .active {
+    color: var(--third-color);
+}
+
+/* End nav */
+
+/* Start header */
+
+header .header-content {
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 80vh;
+}
+
+header .header-details {
+    /* background-color: yellow; */
+    width: 70%;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+}
+
+header .header-details h2 {
+    color: var(--secondary-color);
+    text-transform: capitalize;
+}
+
+header .header-details h1 {
+    color: var(--main-color);
+    text-transform: capitalize;
+    font-size: 35px;
+    margin: 25px 0;
+}
+
+header .header-details h1 span {
+    color: var(--third-color);
+}
+
+header .header-details p {
+    width: 70%;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+
+}
+
+header .header-details p a {
+    text-transform: capitalize;
+    color: var(--secondary-color);
+}
+
+header .header-details .header-buttons {
+    display: flex;
+    row-gap: 10px;
+}
+
+
+
+header .header-details .hire-button {
+    padding: 5px 19px;
+    border-radius: 5px;
+    margin-right: 25px;
+
+    background-color: var(--main-color);
+    color: white;
+
+    text-transform: capitalize;
+
+    box-shadow: -5px 10px 10px rgba(2, 162, 198, 0.3);
+    transition: 0.5s;
+}
+
+header .header-details .hire-button:hover {
+    color: var(--main-color);
+    background-color: white;
+}
+
+header .header-details .projects-button {
+    padding: 5px 20px;
+    border-radius: 5px;
+
+    color: var(--main-color);
+    border: solid 1px var(--main-color);
+
+    text-transform: capitalize;
+
+
+    box-shadow: 1px 5px 5px rgba(2, 162, 198, 0.3);
+    transition: 0.5s;
+}
+
+header .header-details .projects-button:hover {
+    color: white;
+    background-color: var(--main-color);
+}
+
+header .header-image{
+    position: relative;
+}
+header .header-image img {
+    position: relative;
+    z-index: 999999;
+    border-bottom-left-radius: 50%;
+
+}
+
+header .header-image::before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    left: -10px;
+    bottom: 0;
+    background-color: rgba(107, 96, 87, 0.3);
+    z-index: 1;
+    border-bottom-left-radius: 50%;
+    transform: rotate(-2deg);
+}
+
+/* End Header */

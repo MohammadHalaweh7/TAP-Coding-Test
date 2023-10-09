@@ -1,0 +1,120 @@
+@media (max-width: 415px) {
+
+    /* Start nav */
+    nav .list-item {
+        align-items: self-start;
+        flex-direction: column;
+    }
+
+    nav .list-item .item a {
+        font-size: 13px;
+    }
+
+    nav .list-item .item {
+        margin-bottom: 7px;
+    }
+
+    /* End nav */
+
+
+
+    /* Start header */
+    header .header-details {
+        width: 100%;
+        position: relative;
+        top: 200px;
+    }
+
+    header .header-details h2 {
+        font-size: 18px;
+    }
+
+    header .header-details h1 {
+        font-size: 25px;
+    }
+
+    header .header-details p {
+        width: 100%;
+    }
+
+
+    header .header-details .header-buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    header .header-image {
+        margin: auto;
+        position: relative;
+        bottom: 65%;
+    }
+
+    header .header-image img {
+        width: 160px;
+    }
+
+    /* End Header */
+}
+
+@media (min-width:415px) and (max-width:981px) {
+
+    /* Start nav */
+    nav .list-item {
+        justify-content: center;
+        margin-bottom: 15px;
+    }
+
+    nav .list-item .item a {
+        font-size: 14px;
+    }
+
+    /* End nav */
+
+
+
+    /* Start header */
+
+    header .header-details {
+        /* background-color: yellow; */
+        width: 100%;
+        position: relative;
+        top: 200px;
+    }
+
+    header .header-details h2 {
+        font-size: 18px;
+    }
+
+    header .header-details h1 {
+        font-size: 25px;
+    }
+
+
+    header .header-details p {
+        width: 100%;
+    }
+
+
+    header .header-details .header-buttons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+
+    header .header-image {
+        margin: auto;
+        position: relative;
+        bottom: 65%;
+    }
+
+    header .header-image img {
+        width: 160px;
+    }
+
+    /* End Header */
+}
